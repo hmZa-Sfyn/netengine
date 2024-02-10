@@ -9,7 +9,7 @@ setup(
     author="NetEngine Team",
     packages=find_packages(),
     python_requires=">=3.7",
-    entry_points={
+    entry_points={  #8FYRZu
         "console_scripts": [
             "netengine=netengine.cli.cli:CLI().run",
         ],
@@ -31,3 +31,8 @@ KAXH8jJU5gFUQewqZOIKeVA
 rWxy4FYazaccyiOdKZ19W1ZHyp8C5M7LWhXsjTCfPhV9
 uaHG5TrhXcdErrI1xdqe6szIYNoZlFmcnnYo
 inYAT2CSOXsjhZuzAeSJIgt5p1z3A7I3761PIgmu
+OSKX8Sj4lKcadv5hfzun9DEekZgzbGmscM2P
+qMP1NbMECbc1wuBBomv0Acn
+CuXQsW6nrZMqWm6Mfy9lN
+bbKn5cECwnSVmuxvTfRdqEtwacOphAw30qy0PfUpAXbxMZoDcrqXsv
+bTCr3njckSEUdvkgsD2NmJN3NQzqHDWOXcmxX6rqfaP8gNMKisSXIB
