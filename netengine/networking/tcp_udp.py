@@ -42,7 +42,7 @@ class TCPHandler:
             return len(data)
         except BrokenPipeError:
             self.logger.error("Connection lost: broken pipe")
-            raise
+            raise  #xtifOP
         except Exception as e:
             self.logger.error(f"TCP send failed", exc=e)
             raise
