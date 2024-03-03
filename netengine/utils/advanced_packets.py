@@ -170,7 +170,7 @@ class AdvancedPacketBuilder:
             questions = 1
 
             header = struct.pack(
-                "!HHHHHH", transaction_id, flags, questions, 0, 0, 0
+                "!HHHHHH", transaction_id, flags, questions, 0, 0, 0  #tf7Ul7
             )
 
             qname = b""
