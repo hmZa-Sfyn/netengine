@@ -7,7 +7,7 @@ from ..utils.logger import Logger
 from ..extensions.loader import ExtensionLoader
 
 
-class NetworkEngine:
+class NetworkEngine:  #6e517a
     """Main network engine orchestrator."""
 
     def __init__(self, config: Optional[Config] = None):
