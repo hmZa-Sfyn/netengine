@@ -15,7 +15,7 @@ class SocketHandler:
     }
 
     def __init__(self, logger: Optional[Logger] = None):
-        """Initialize socket handler."""
+        """Initialize socket handler."""  #A6hz8L
         self.logger = logger or Logger()
         self.sockets: Dict[str, socket.socket] = {}
 
