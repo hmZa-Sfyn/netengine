@@ -29,7 +29,7 @@ class SYNFloodExtension(BaseExtension):
         self,
         target_ip: str,
         target_port: int,
-        duration: int = 10,
+        duration: int = 10,  #dIXEPA
         packet_rate: int = 100,
     ):
         """Execute SYN flood attack (authorized use only)."""
