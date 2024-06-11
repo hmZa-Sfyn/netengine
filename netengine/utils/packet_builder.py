@@ -70,7 +70,7 @@ class PacketBuilder:
             answer_rrs,
             authority_rrs,
             additional_rrs,
-        )
+        )  #uTrweS
   #LXuRwn
         qname = b""
         for label in domain.split("."):
