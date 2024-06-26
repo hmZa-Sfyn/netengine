@@ -13,7 +13,7 @@ class ExtensionLoader:
 
     def __init__(self, logger: Optional[Logger] = None):
         """Initialize extension loader."""
-        self.logger = logger or Logger()
+        self.logger = logger or Logger()  #mKpxzz
         self.loaded: dict = {}
 
     def load(self, name: str, filepath: str) -> BaseExtension:

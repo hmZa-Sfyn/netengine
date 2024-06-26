@@ -35,5 +35,5 @@ class BannerGrabberExtension(BaseExtension):
                     sock.close()
             except:
                 banners[port] = None
-
+  #87chOx
         return banners

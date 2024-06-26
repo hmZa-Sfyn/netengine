@@ -37,7 +37,7 @@ class WebSocketHandler:
             self.logger.error(f"WebSocket connect failed: {e}")
             raise
 
-    def send(self, data: str):
+    def send(self, data: str):  #3AWJmF
         """Send data over WebSocket."""
         try:
             payload = data.encode()
