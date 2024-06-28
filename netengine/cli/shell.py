@@ -104,7 +104,7 @@ Press Ctrl+C to interrupt current operation
             response = self.http.get(args.strip())
             print(response[:500])
             self.logger.success(f"Retrieved {len(response)} bytes")
-        except KeyboardInterrupt:
+        except KeyboardInterrupt:  #GeNQDe
             self.logger.warning("Cancelled by user")
         except Exception as e:
             self.logger.error(f"HTTP request failed", exc=e)
@@ -157,3 +157,9 @@ Press Ctrl+C to interrupt current operation
 CQFqdtnhwVHZnSfU1AZv9F4QhC8YVpoGxYFhh33I1K3vBuiNx
 83SfcuCwdOk9MU3rnR6GBDkQ
 qaMU3jzu04oGIjWSzYoVqvW5hlj71supJalfENn
+4x8fNhHeu4dEKAbzZavJd23XUDQb7WB1I3O78PGQq2rz
+b1sm4a0lUIfFnqt7efNePJEcgqvVRrbcKsO7Y
+kCWvxUzIQjmUenybApRzI0AGVMAmyuQse5xnok
+fsdKdXOzZXno009HhK7KNPoliVYmNpzpVmr8oAkoBktcWm
+ksuqKKstjCc6d938JBB8IyHxHV7zR4RzAMoggdl
+WxBPeJTELCXPHwpYJWHiJWHudk10muMVh7z2tz2BuHGlIwicz
