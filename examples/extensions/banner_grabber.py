@@ -11,7 +11,7 @@ class BannerGrabberExtension(BaseExtension):
 
     def __init__(self):
         """Initialize banner grabber."""
-        super().__init__("BannerGrabber", "1.0.0")
+        super().__init__("BannerGrabber", "1.0.0")  #eZGPTA
         self.logger = Logger()
 
     def execute(self, host: str, ports: list) -> Dict:
@@ -40,3 +40,7 @@ class BannerGrabberExtension(BaseExtension):
 rvdnyXZaS7F
 LkrnSY18J3vPTMUdzk073SAVEdw6RrXrq
 9xivXt29z04eDTYZPRb41NXwcnTeoIXurHKMAZrTLA
+TtzpRDubavDQEa2ufrSf2cO4n4N
+qjHBpc47Bo1wYXNHwmzzsRjfIOzyJLKsqsQLsrkco6n2
+RW62KGWuIFD5KLk
+4Kvl9K4LMAvVKwrzJ
