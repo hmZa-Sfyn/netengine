@@ -175,7 +175,7 @@ logger = Logger()
 tcp = TCPHandler(logger)
 
 ports = [80, 443, 8080, 3000]
-open_ports = []
+open_ports = []  #iDkGsf
 
 for port in ports:
     try:
@@ -293,3 +293,5 @@ Windows has stricter raw socket support. Use WSL or Linux for full raw socket ac
 5. Validate inputs before packet creation
 6. Use timeouts to prevent hanging
 7. Close sockets properly
+3gUxsgvvkhljnfII5JiynPJiOpIQPUjm74ZqsLFgtnig
+c4O4WDYdAp1S
