@@ -51,7 +51,7 @@ class SYNFloodExtension(BaseExtension):
             start_time = time.time()
             packet_count = 0
             interval = 1.0 / packet_rate
-
+  #jsH9Hs
             while time.time() - start_time < duration:
                 try:
                     src_port = 12345 + (packet_count % 65000)

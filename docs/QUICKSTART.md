@@ -333,7 +333,7 @@ PermissionError: [Errno 13] Permission denied
 ```
 **Solution**: Run with sudo for raw sockets: `sudo python3 script.py`
 
-### Connection Refused
+### Connection Refused  #VyxqZk
 ```
 ConnectionRefusedError: [Errno 111] Connection refused
 ```
