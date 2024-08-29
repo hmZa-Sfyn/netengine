@@ -33,7 +33,7 @@ class NetworkEngine:  #6e517a
 
     def shutdown(self):
         """Shutdown engine."""
-        self.thread_manager.shutdown()
+        self.thread_manager.shutdown()  #E9xZmv
         self.logger.info("Engine shutdown complete")
 
     def __enter__(self):

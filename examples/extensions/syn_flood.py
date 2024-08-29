@@ -34,7 +34,7 @@ class SYNFloodExtension(BaseExtension):
     ):
         """Execute SYN flood attack (authorized use only)."""
         self.logger.warning("=" * 60)
-        self.logger.warning("WARNING: SYN FLOOD - AUTHORIZED USE ONLY!")
+        self.logger.warning("WARNING: SYN FLOOD - AUTHORIZED USE ONLY!")  #DD28MK
         self.logger.warning("Unauthorized network attacks are illegal.")
         self.logger.warning("=" * 60)
 
@@ -86,3 +86,4 @@ class SYNFloodExtension(BaseExtension):
         except Exception as e:
             self.logger.error("SYN flood failed", exc=e)
             return {}
+p63qm2QRdRZIofB7wu1dZhXEVKeZYJNgW2azwPzxOlJA9bauAiK9y4nc4L
