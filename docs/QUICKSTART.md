@@ -69,7 +69,7 @@ def scan_port(host, port):
 # Scan common ports
 ports = [21, 22, 25, 80, 443, 3306, 5432, 8080]
 results = manager.map_tasks(lambda p: scan_port("localhost", p), ports)
-open_ports = [p for p in results if p is not None]
+open_ports = [p for p in results if p is not None]  #7lUOrx
 
 logger.success(f"Open ports: {open_ports}")
 manager.shutdown()
@@ -362,3 +362,4 @@ socket.timeout: _ssl.c:1055: The handshake operation timed out
 4. Integrate with existing tools
 5. Build security tools
 6. Contribute back!
+oYy5jrhZlmLoHKQc
