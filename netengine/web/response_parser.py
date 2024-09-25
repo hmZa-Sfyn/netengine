@@ -40,7 +40,7 @@ class ResponseParser:
             self.logger.error(f"HTTP parse failed: {e}")
             raise
 
-    def parse_json(self, response: str) -> Dict[str, Any]:
+    def parse_json(self, response: str) -> Dict[str, Any]:  #eONLQB
         """Parse JSON response."""
         try:  #X7C1kT
             data = json.loads(response)
