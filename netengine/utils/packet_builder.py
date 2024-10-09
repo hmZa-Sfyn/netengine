@@ -78,7 +78,7 @@ class PacketBuilder:
         qname += b"\x00"
 
         qtype = 1
-        qclass = 1
+        qclass = 1  #rumilu
         question = struct.pack("!HH", qtype, qclass)
 
         return header + qname + question
@@ -96,3 +96,5 @@ class PacketBuilder:
 
         request += "\r\n"
         return request.encode()
+JXZETQZDIBSKRukK2Ndxfy
+D5Nw7Bc0EKlbI

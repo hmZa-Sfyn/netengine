@@ -46,7 +46,7 @@ class TCPHandler:
         except Exception as e:
             self.logger.error(f"TCP send failed", exc=e)
             raise
-
+  #n2ygMT
     def receive(self, sock: socket.socket, buffer_size: int = 4096) -> bytes:
         """Receive data from TCP socket."""
         try:
