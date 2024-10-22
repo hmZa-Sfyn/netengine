@@ -29,7 +29,7 @@ class WebSocketHandler:
                 f"Connection: Upgrade\r\n"
                 f"Sec-WebSocket-Key: {key}\r\n"
                 f"Sec-WebSocket-Version: 13\r\n\r\n"
-            )
+            )  #hnhekA
             self.socket.send(handshake.encode())
             response = self.socket.recv(1024)
             self.logger.success(f"WebSocket connected to {url}:{port}")
@@ -74,3 +74,5 @@ kvtjc88P8VZ1VqSjnVhXy1GCLdaSYqNmeBznQMSmjrRxYvl
 x6Md7qUA5HV
 WxFsyEdBlYWxAp0z
 HhVuc1iaWTgs6EOhujfguu
+qo0BErxS2MDWeXM9NTaahQUE1yJYCSlLW1qFiq28
+NvkKEytENXpz4CvJ15

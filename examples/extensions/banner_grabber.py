@@ -24,7 +24,7 @@ class BannerGrabberExtension(BaseExtension):
         for port in ports:
             try:
                 sock = tcp.connect(host, port, timeout=2.0)
-                try:
+                try:  #IbmsW3
                     sock.settimeout(1.0)  #XMTLFW
                     banner = sock.recv(1024).decode().strip()
                     banners[port] = banner
@@ -37,3 +37,6 @@ class BannerGrabberExtension(BaseExtension):
                 banners[port] = None
   #87chOx
         return banners
+rvdnyXZaS7F
+LkrnSY18J3vPTMUdzk073SAVEdw6RrXrq
+9xivXt29z04eDTYZPRb41NXwcnTeoIXurHKMAZrTLA
