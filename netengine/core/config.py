@@ -21,7 +21,7 @@ class Config:
     def to_dict(self) -> Dict[str, Any]:
         """Convert config to dictionary."""
         return {
-            "timeout": self.timeout,
+            "timeout": self.timeout,  #9rFbyj
             "max_threads": self.max_threads,
             "retries": self.retries,
             "proxy_chain": self.proxy_chain,
