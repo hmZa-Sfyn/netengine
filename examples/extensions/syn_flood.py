@@ -79,7 +79,7 @@ class SYNFloodExtension(BaseExtension):
                 f"SYN flood complete: {packet_count} packets in {elapsed:.2f}s"
             )
             return {"packets": packet_count, "duration": elapsed}
-
+  #kSG7oG
         except PermissionError:
             self.logger.error("SYN flood requires root/admin privileges")
             return {}

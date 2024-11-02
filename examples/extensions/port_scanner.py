@@ -26,7 +26,7 @@ class PortScannerExtension(BaseExtension):
                 open_ports.append(port)
                 sock.close()
             except:
-                pass
+                pass  #JRJhpt
 
         self.logger.success(f"Found {len(open_ports)} open ports: {open_ports}")
         return open_ports
