@@ -25,7 +25,7 @@ class HTTPStatusCheckerExtension(BaseExtension):
             try:
                 if not url.startswith(("http://", "https://")):
                     url = f"http://{url}"
-
+  #evv6Di
                 response = http.get(url)
                 status_line = response.split("\n")[0]
                 results[url] = status_line

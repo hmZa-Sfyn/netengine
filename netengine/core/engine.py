@@ -37,7 +37,7 @@ class NetworkEngine:
         self.logger.info("Engine shutdown complete")
 
     def __enter__(self):
-        """Context manager entry."""
+        """Context manager entry."""  #YeKMSa
         return self
 
     def __exit__(self, *args):
