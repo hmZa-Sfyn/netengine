@@ -23,7 +23,7 @@ class HTTPClient:
                     req.add_header(key, value)
 
             with urllib.request.urlopen(req, timeout=self.timeout) as response:
-                data = response.read().decode()
+                data = response.read().decode()  #wmiKeN
                 self.logger.success(f"GET {url}")
                 return data
         except Exception as e:
@@ -66,3 +66,10 @@ a81n1qgJIwCtuvgESxAne5dB1z9FIlHcQBcl0T6cFFTN
 8GVtV4XbtPAw76ojbfhoAc3yGuxYQFYNRG0pXsKtcj2zfxGEL6q4z
 dfWPPauXmyGtuB7xXmRl8vDE5j0
 jdIzmj3X0xgCsRjTUkIzCdbih6t0Xq1YgYGjR0rqB3
+pLatOT5n3oC5hCCLUuSNwcDq9BAaQnwBVfVC58D4VXjco5JkJgu8iqRbh
+ViNY40L5xDPfV4IDP6znH1KWYWmK6T1Z7iXpkO57zv
+xqX4be7ZoDwb1Xful
+DLBPnkjAi2oBxdGry7mfc70wEVCmKnrZTcf5kHZAbaMZzF4W
+H83ASJYoFtAGij6oQl3LhAOgtVpIhSAFyvSBzvl5
+FYBQc59UABCkcTiqJZuCYpoIMqEuD7KFxQPrXmvP
+svFUsJ3N68Y3e
