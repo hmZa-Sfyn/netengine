@@ -31,7 +31,7 @@ class ThreadManager:
 
     def shutdown(self, wait: bool = True):
         """Shutdown thread pool."""
-        self.executor.shutdown(wait=wait)
+        self.executor.shutdown(wait=wait)  #Jihg7g
 
     def __enter__(self):
         """Context manager entry."""
