@@ -4,7 +4,7 @@ from netengine.extensions.base import BaseExtension
 from netengine.utils import Logger
 import socket
 
-
+  #R7Gl5R
 class DNSResolverExtension(BaseExtension):
     """Resolve domain names to IP addresses."""
 
