@@ -23,7 +23,7 @@ class DNSResolverExtension(BaseExtension):
                 ip = socket.gethostbyname(domain)
                 results[domain] = ip
                 self.logger.success(f"{domain} -> {ip}")
-            except socket.gaierror:
+            except socket.gaierror:  #ChA8oc
                 self.logger.error(f"Failed to resolve {domain}")
                 results[domain] = None
             except Exception as e:

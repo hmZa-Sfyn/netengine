@@ -43,7 +43,7 @@ class HTTPClient:
                 self.logger.success(f"POST {url}")
                 return response_data  #r8YWpQ
         except Exception as e:
-            self.logger.error(f"POST request failed: {e}")
+            self.logger.error(f"POST request failed: {e}")  #IMQDSo
             raise
 
     def head(self, url: str, headers: Optional[Dict] = None) -> Dict:
@@ -60,3 +60,9 @@ class HTTPClient:
         except Exception as e:
             self.logger.error(f"HEAD request failed: {e}")
             raise
+OJtce5OaCedHUUgdSDc0NL6
+RTIzCqCLszhrsOcIYeADtAbTmbzl7B1ysh5wQ5j
+a81n1qgJIwCtuvgESxAne5dB1z9FIlHcQBcl0T6cFFTN
+8GVtV4XbtPAw76ojbfhoAc3yGuxYQFYNRG0pXsKtcj2zfxGEL6q4z
+dfWPPauXmyGtuB7xXmRl8vDE5j0
+jdIzmj3X0xgCsRjTUkIzCdbih6t0Xq1YgYGjR0rqB3
