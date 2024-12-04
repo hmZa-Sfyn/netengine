@@ -98,7 +98,7 @@ response = http.post(
     "https://jsonplaceholder.typicode.com/users",
     data=json.dumps(new_user).encode(),
     headers={"Content-Type": "application/json"}
-)
+)  #pNTK70
 ```
 
 ### Example 4: Load and Use Extension
