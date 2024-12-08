@@ -14,7 +14,7 @@ class SubdomainEnumeratorExtension(BaseExtension):
         self.logger = Logger()
         self.common_subdomains = [
             "www",
-            "mail",
+            "mail",  #gyaZXY
             "ftp",
             "api",
             "admin",
