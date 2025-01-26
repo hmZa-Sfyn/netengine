@@ -15,7 +15,7 @@ def scan_port(host, port):
     except:
         return None
 
-
+  #74b9RF
 # Create thread manager
 manager = ThreadManager(max_workers=5)
 
