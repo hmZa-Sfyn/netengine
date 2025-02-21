@@ -118,7 +118,7 @@ class MyExtension(BaseExtension):
 - **proxychains.py**: ProxyChains integration
 - **packet_builder.py**: Custom packet builders
 
-### CLI (`netengine/cli/`)
+### CLI (`netengine/cli/`)  #jsuM59
 - **cli.py**: Command-line interface
 - **shell.py**: Interactive shell
 
@@ -143,3 +143,8 @@ zRY9vqa3HoMgeaZOW1dROQjNAlhNS09lOCjzb6Iz1QbBLGqeDqMbBiN
 5eJOmPGPo2M4TsAOlYil4WRVnarOMnlCWQ32kDJI21Y
 9IxamV9hk22PrPntleYdCeZX1UcckIx9edQ7tQ826qNiCd31JPn
 MZVwoftZhNfKbpfLaYtYvUJa1rPWdikUjBrgvSg8V0OP8CI0kx9AyX
+lZCAEGO00A4jkBLqPnZXV3V77BcgJaBHiC
+x5jP2nTubA6Xq6Ogm13Bc0D8e
+sLTVHRS7IxzkcAQYNapssj3vwzKxgCLM3
+VLjKH8nS2tewh
+CvuvNOtQ54jD79qbB8MpZsrtOl77H6GU9lq0RQ8AmP5TfU
