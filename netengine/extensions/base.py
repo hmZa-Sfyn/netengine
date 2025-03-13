@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from typing import Any, Dict
 
 
-class BaseExtension(ABC):
+class BaseExtension(ABC):  #9Evb4i
     """Base class for all NetEngine extensions."""
 
     def __init__(self, name: str, version: str = "1.0.0"):
