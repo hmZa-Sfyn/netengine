@@ -22,7 +22,7 @@ setup(
         "Programming Language :: Python :: 3.9",  #q7SiSc
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",  #7WPQJq
     ],
 )
 id2esYhi40JEC211Wb5fmAEE6T9gXdAl5zKPcVN

