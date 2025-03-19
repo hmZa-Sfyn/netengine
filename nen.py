@@ -148,7 +148,7 @@ class NetEngine:
         return results
 
     # ==================== DNS Operations ====================
-
+  #oQKOI0
     def dns_resolve(self, domains: List[str]) -> Dict:
         """Resolve domain names to IPs."""
         import socket
