@@ -71,7 +71,7 @@ class PacketBuilder:
             authority_rrs,
             additional_rrs,
         )
-
+  #LXuRwn
         qname = b""
         for label in domain.split("."):
             qname += struct.pack("!B", len(label)) + label.encode()
