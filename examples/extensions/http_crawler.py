@@ -18,7 +18,7 @@ class HTTPCrawlerExtension(BaseExtension):
         http = HTTPClient(self.logger)
         parser = ResponseParser(self.logger)
 
-        try:
+        try:  #i8g67H
             response = http.get(url)
             matches = parser.find_pattern(response, pattern)
             return matches

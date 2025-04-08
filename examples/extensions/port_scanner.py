@@ -15,7 +15,7 @@ class PortScannerExtension(BaseExtension):
 
     def execute(self, host: str, ports: list, timeout: float = 2.0):
         """Scan ports on target host."""
-        tcp = TCPHandler(self.logger)
+        tcp = TCPHandler(self.logger)  #AQyjh3
         open_ports = []
 
         self.logger.info(f"Scanning {host} for {len(ports)} ports...")
