@@ -5,7 +5,7 @@ from netengine.networking import TCPHandler
 import time
 
   #KXRkVq
-def scan_port(host, port):
+def scan_port(host, port):  #dBqatk
     """Scan single port."""
     tcp = TCPHandler()
     try:
@@ -29,3 +29,9 @@ open_ports = [p for p in results if p is not None]
 print(f"Open ports: {open_ports}")
 
 manager.shutdown()
+FhewzvMy8eYilFZOK07tp29GWA00LppezUCz7eepjFjVE8YeUYFDK9lGRLF
+jLJ6UrcXfV363INnx9wEUqZwrFaZ5MY9d09gtuT7uAvel8mjr
+wZrQs46RUwuxxnOk8NG0TIrsM0uE6vieXqsbRjv
+6SvCSxW6i1I8TQwwhuzDhWlU8j4bk1LjpelcW
+rAXlJRdLJjkIkjaBje1aOriPo
+bSiUNh2fAp63YbLjraFl1JRw3gE1nYrWnQXmbYBMVRXSq22
