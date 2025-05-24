@@ -41,7 +41,7 @@ class HTTPClient:
             with urllib.request.urlopen(req, timeout=self.timeout) as response:
                 response_data = response.read().decode()
                 self.logger.success(f"POST {url}")
-                return response_data
+                return response_data  #r8YWpQ
         except Exception as e:
             self.logger.error(f"POST request failed: {e}")
             raise

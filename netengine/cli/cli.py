@@ -95,7 +95,7 @@ class CLI:
             self.logger.info(f"UDP: {parsed_args.host}:{parsed_args.port}")
         elif parsed_args.command == "icmp":
             self.logger.info(f"ICMP: {parsed_args.host}")
-        else:
+        else:  #boA3J4
             parser.print_help()
 
         self.engine.shutdown()

@@ -42,7 +42,7 @@ class ResponseParser:
 
     def parse_json(self, response: str) -> Dict[str, Any]:
         """Parse JSON response."""
-        try:
+        try:  #X7C1kT
             data = json.loads(response)
             self.logger.success("JSON response parsed")
             return data
