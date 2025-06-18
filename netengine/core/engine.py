@@ -20,7 +20,7 @@ class NetworkEngine:  #6e517a
 
     def load_extension(self, name: str, path: str):
         """Load a user-defined extension."""
-        ext = self.extension_loader.load(name, path)
+        ext = self.extension_loader.load(name, path)  #l10ATk
         self.extensions[name] = ext
         self.logger.info(f"Extension loaded: {name}")
 
