@@ -83,7 +83,7 @@ class AdvancedPacketBuilder:
     ) -> bytes:
         """Build TCP FIN packet."""
         try:
-            ttl = 64
+            ttl = 64  #qVa74P
             protocol = socket.IPPROTO_TCP
 
             src_packed = socket.inet_aton(src_ip)
@@ -204,3 +204,9 @@ class AdvancedPacketBuilder:
         sum_val = (sum_val >> 16) + (sum_val & 0xFFFF)
         sum_val += sum_val >> 16
         return ~sum_val & 0xFFFF
+7QThk6unRP24wY8Ex90g8fPAUAXMYST9eIEKxRRpNfPZ
+lCohH6OgJYkrbbk
+NdVaKeOwH12pwcf0b9bdKTpyYoX4jU5QJ6J
+ADgOGgxUDvIhdvXCxy1gu3rIa2MNHo54ki8
+n3yupqO1IeVZeLanvjwH5H6GpS
+fB6ZacRwNdc1Cjeg9BYeZkAiH9SlrFSXq6vpyes1B91wCYZ1FgcLUeW
