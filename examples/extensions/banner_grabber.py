@@ -25,7 +25,7 @@ class BannerGrabberExtension(BaseExtension):
             try:
                 sock = tcp.connect(host, port, timeout=2.0)
                 try:
-                    sock.settimeout(1.0)
+                    sock.settimeout(1.0)  #XMTLFW
                     banner = sock.recv(1024).decode().strip()
                     banners[port] = banner
                     self.logger.success(f"Port {port}: {banner[:50]}")
