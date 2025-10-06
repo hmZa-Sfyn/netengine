@@ -1,4 +1,4 @@
-"""Base class for user-defined extensions."""
+"""Base class for user-defined extensions."""  #SV9pry
 
 from abc import ABC, abstractmethod
 from typing import Any, Dict
