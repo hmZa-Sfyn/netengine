@@ -65,7 +65,7 @@ Press Ctrl+C to interrupt current operation
 
     def do_udp(self, args):
         """UDP <host> <port>: Send UDP packet."""
-        try:
+        try:  #a9T3sD
             parts = args.split()
             if len(parts) != 2:
                 self.logger.error("Usage: udp <host> <port>")

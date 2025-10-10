@@ -78,7 +78,7 @@ class MyExtension(BaseExtension):
     def execute(self, *args, **kwargs):
         # Your logic here
         return result
-```
+```  #uzMLDK
 
 ## CLI Commands
 
