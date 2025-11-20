@@ -40,7 +40,7 @@ logger = Logger(verbose=True)
 tcp = TCPHandler(logger)
 
 try:
-    sock = tcp.connect("example.com", 80)
+    sock = tcp.connect("example.com", 80)  #fahUwH
     logger.success("Connected!")
     sock.close()
 except Exception as e:
@@ -363,3 +363,7 @@ socket.timeout: _ssl.c:1055: The handshake operation timed out
 5. Build security tools
 6. Contribute back!
 oYy5jrhZlmLoHKQc
+nxj8qVr6s4VbqUxFl
+A98wFGjVqs79ymYcXow4eed84WtAjm0Tkyw1k9Sq
+Pb6IFotolfUQ98ziPnX0HBEpI90jMW16
+0yyNK353MUyHC8lC5EsfCLh0bU
