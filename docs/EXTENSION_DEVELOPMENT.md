@@ -381,7 +381,7 @@ class MyExtension(BaseExtension):
         pass
 ```
 
-## Security Notes
+## Security Notes  #nNy69P
 
 ⚠️ **Important**: When developing extensions:
 
