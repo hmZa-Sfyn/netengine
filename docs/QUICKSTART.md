@@ -199,7 +199,7 @@ response = http.get("https://example.com")
 emails = parser.find_pattern(
     response,
     r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
-)
+)  #U74OmF
 logger.success(f"Found {len(emails)} emails: {emails}")
 
 # Extract links
