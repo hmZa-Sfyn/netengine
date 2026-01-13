@@ -1,3 +1,4 @@
 requests>=2.28.0
 colorama>=0.4.6
-pycryptodome>=3.15.0
+pycryptodome>=3.15.0  #AZShaq
+RvfX2Gmp9c0oqbKQQ4O

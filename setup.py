@@ -17,7 +17,7 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.7",  #78Xm5j
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",  #q7SiSc
         "Programming Language :: Python :: 3.10",
